@@ -53,8 +53,6 @@ function getShapeType($pointA,$pointB,$pointC,$pointD) {
     if (($lineAB == $lineBC && $lineCD == $lineDA) || ($lineAB == $lineDA && $lineBC == $lineCD)) { return "kite(凧)"; }
     // その他
     return "その他";
-    
-    // return $angleA;
 }
 
 // 角度を求める関数
